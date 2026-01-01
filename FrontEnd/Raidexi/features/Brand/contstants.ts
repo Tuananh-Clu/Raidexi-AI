@@ -68,3 +68,87 @@ export const NAV_LINKS = [
   { href: "#", label: "Công nghệ" },
   { href: "#", label: "Liên hệ" },
 ];
+import { Brand, BrandStatus } from './types';
+
+export const BRANDS: Brand[] = [
+  {
+    id: '1',
+    name: 'Uniqlo',
+    refCode: 'JP-2201',
+    status: BrandStatus.OPTIMIZED,
+    lastSync: '12 OCT 2023',
+    metricLabel: 'Fit Score',
+    metricValue: '98%',
+    icon: 'checkroom'
+  },
+  {
+    id: '2',
+    name: 'Zara',
+    refCode: 'ES-0922',
+    status: BrandStatus.RECALIBRATE,
+    lastSync: '14 AUG 2023',
+    metricLabel: 'Drift',
+    metricValue: '+2.5cm',
+    icon: 'styler'
+  },
+  {
+    id: '3',
+    name: 'Cos',
+    refCode: 'SE-3310',
+    status: BrandStatus.PENDING,
+    lastSync: '--',
+    metricLabel: 'Data Points',
+    metricValue: '0/12',
+    icon: 'dry_cleaning'
+  },
+  {
+    id: '4',
+    name: 'Nike',
+    refCode: 'US-0012',
+    status: BrandStatus.OPTIMIZED,
+    lastSync: '01 NOV 2023',
+    metricLabel: 'Fit Score',
+    metricValue: '95%',
+    icon: 'shopping_bag'
+  },
+  {
+    id: '5',
+    name: "Arc'teryx",
+    refCode: 'CA-8812',
+    status: BrandStatus.OPTIMIZED,
+    lastSync: '20 OCT 2023',
+    metricLabel: 'Fit Score',
+    metricValue: '99%',
+    icon: 'checkroom'
+  },
+  {
+    id: '6',
+    name: "Levi's",
+    refCode: 'US-1853',
+    status: BrandStatus.PENDING,
+    lastSync: '--',
+    metricLabel: 'Data Points',
+    metricValue: '2/10',
+    icon: 'apparel'
+  },
+  {
+    id: '7',
+    name: 'H&M',
+    refCode: 'SE-1947',
+    status: BrandStatus.RECALIBRATE,
+    lastSync: '10 SEP 2023',
+    metricLabel: 'Drift',
+    metricValue: '+1.2cm',
+    icon: 'styler'
+  },
+  {
+    id: '8',
+    name: 'Patagonia',
+    refCode: 'US-7313',
+    status: BrandStatus.OPTIMIZED,
+    lastSync: '18 NOV 2023',
+    metricLabel: 'Fit Score',
+    metricValue: '97%',
+    icon: 'checkroom'
+  }
+];
