@@ -33,6 +33,10 @@ module.exports = {
         "terminal-black": "#13100c",
         "border-dark": "#544d3b",
         "surface-dark": "#2a2415",
+        "border-color": "#393328",
+        "border-highlight": "#544b3b",
+        "text-main": "#f2f0ed",
+        "text-muted": "#b9af9d",
       },
       fontFamily: {
         display: ["Newsreader", "serif"],

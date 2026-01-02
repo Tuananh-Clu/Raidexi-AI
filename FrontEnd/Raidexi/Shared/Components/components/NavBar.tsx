@@ -61,7 +61,7 @@ export const NavBar: React.FC = () => {
             </div>
             <div className="w-px h-5 bg-gray-400/50" />
             <a
-              href="/Profile"
+              href="/Dashboard"
               className="px-3 py-1.5 text-xs font-mono font-bold uppercase text-primary hover:text-white transition-all duration-300 hover:underline underline-offset-4 hidden md:block"
             >
               Profile
